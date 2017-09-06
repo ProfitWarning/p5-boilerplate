@@ -1,0 +1,39 @@
+{
+  "name": "p5-boilerplate",
+  "version": "0.0.1",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "webpack-dev-server --env development",
+    "build": "webpack --env production"
+  },
+  "dependencies": {
+    "p5": "^0.5.9"
+  },
+  "keywords": [
+    "p5",
+    "p5.js",
+    "p5js",
+    "boilerplate"
+  ],
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-eslint": "^7.2.3",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.16",
+    "copy-webpack-plugin": "^4.0.1",
+    "eslint": "^4.6.1",
+    "eslint-loader": "^1.9.0",
+    "html-webpack-plugin": "^2.30.1",
+    "uglifyjs-webpack-plugin": "^0.4.6",
+    "webpack": "^3.5.5",
+    "webpack-dev-server": "^2.4.5",
+    "webpack-merge": "^4.1.0"
+  },
+  "license" : "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ProfitWarning/p5-boilerplate.git"
+  }
+}
